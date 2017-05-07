@@ -7,8 +7,9 @@
     tools:context="com.example.raas.binatangucul.FrontActivity">
 
     <ImageView
+        android:id="@+id/logo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="150dp"
         android:src="@drawable/logo"/>
     <Button
         android:layout_width="wrap_content"
@@ -20,4 +21,11 @@
         android:layout_alignParentBottom="true"
         android:background="@color/colorPrimary"
         android:layout_centerHorizontal="true" />
+    <EditText
+        android:layout_below="@id/logo"
+        android:textSize="24dp"
+        android:id="@+id/txtnama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Nama Anda"/>
 </RelativeLayout>
